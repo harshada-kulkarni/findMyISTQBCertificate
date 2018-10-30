@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Find ISTQB Certificate" verbose="10">
+
+  <test name="FindMyCertificate" preserve-order="true">
+    <classes>
+      <class name="testcases.FindMyCertificate">
+        <methods>        
+          <include name="openCertifiedTestersPage" />
+          <include name="searchByName" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
